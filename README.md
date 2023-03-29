@@ -1,4 +1,6 @@
-# Multi Modal Search (Text+Image) using Tensorflow, HuggingFace  in Python on Kaggle Shopee Dataset
+# AB7
+
+### Multi Modal Search (Text+Image) using Tensorflow, HuggingFace  in Python on Kaggle Shopee Dataset
 In this repository I demonstrate how you can perform multimodal(image+text) search to find similar images+texts given a test image+text from a multimodal (texts+images) database . I use the Kaggle Shopee dataset. I use Tensorflow  MobileNet CNN and hugging face sentence transformers BERT  to extract image and text embeddings to create a joint embedding search space. Given an image and it text description I extract joint embedding and then use nearest neighbours algorithm to find top 5 similar images+texts description from my joint embedding search space
 
 Pre-requisites
